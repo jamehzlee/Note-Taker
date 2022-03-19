@@ -25,7 +25,7 @@ notes.post('/', (req, res) => {
             body: newNote,
         };
         console.log(response);
-        res.join(response);
+        res.json(response);
     }
     else {
         res.json('Error in adding note')
