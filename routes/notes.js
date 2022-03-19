@@ -16,9 +16,8 @@ notes.post('/', (req, res) => {
         const newNote = {
             title,
             text,
-            note_id: uuidv4(),
+            id: uuidv4(),
         };
-
         readAndAppend(newNote, './db/db.json')
 
         const response = {
@@ -29,10 +28,8 @@ notes.post('/', (req, res) => {
         res.join(response);
     }
     else {
-        res.join('Error in adding note')
+        res.json('Error in adding note')
     }
 });
-
-
 
 module.exports = notes;
