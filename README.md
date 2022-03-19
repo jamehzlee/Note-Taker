@@ -1,4 +1,4 @@
-<h1><a href="https://note-taker-jamesl.herokuapp.com/">Note Taker</a></h1>
+<h1><a href="https://note-taker-jamesl.herokuapp.com/">Note Taker deployment</a></h1>
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
